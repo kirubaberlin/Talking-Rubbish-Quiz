@@ -1,0 +1,88 @@
+/* CSS styles here */
+body {
+  background-color: lightblue;
+  background-image: url("scroll-png-26394.png");
+  background-size: cover;
+  /* display: flex;
+  justify-content: center; */
+  align-items: center;
+  min-height: 100vh;
+}
+
+#quizContainer {
+ display: flex; 
+  flex-direction: column;
+  align-items: center;
+}
+
+canvas {
+  border: 1px solid #000;
+}
+
+/* Title header */
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 900px; /* Adjust the max-width as desired */
+  margin: 0 auto; /* Center the header horizontally */
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+
+/* Idiom title box */
+.idiom-title {
+  background-color: rgba(242, 242, 242, 0);
+  text-align: center;
+  padding: 20px;
+  font-size: 75px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Options box */
+.options {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.options button {
+  width: 200px; /* Adjust the width as desired */
+  height: 50px; /* Adjust the height as desired */
+  font-size: 20px; /* Adjust the font size as desired */
+  background-color: #e0e0e0;
+  border: none;
+  cursor: pointer;
+}
+
+.options button:hover {
+  background-color: #d0d0d0;
+}
+
+/* Next question box */
+.next-question {
+  text-align: center;
+}
+
+.next-question button {
+  padding: 15px 30px;
+  font-size: 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.next-question button:hover {
+  background-color: #45a049;
+}
