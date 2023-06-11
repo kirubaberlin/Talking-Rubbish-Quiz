@@ -8,15 +8,24 @@
       border: 1px solid #000;
     }
   </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1 class="header">  What on Earth are you talking about...? Guess the meaning of the idiom and build a fantastic day in London! </h1>
+  <h1 class="header"> What on Earth are you talking about...? Guess the meaning of the idiom and build a fantastic day in London! </h1> 
   <div class="idiom-title" id="quizContainer"> 
     <h2 id="idiom"></h2>
+    <p id="indexDisplay"></p>
     <div id="options"></div>
-    <button onclick="nextQuestion()">Onward and upward! Tally Ho!</button>
+    <button id="start" onclick="nextQuestion()">Onward and upward! Tally Ho!</button>
   </div>
-
+  <div id="yourWins">  
+    <h1>Congratulations!</h1><p>You have completed the idioms quiz and will hopefully have n excellent day in London!</p>
+    <p>And these are your prizes (you've got <span id="totalCorect" style="display:inline"></span> correct answers)</p>
+    <div id="prize"></div>
+    <button onClick="location.reload()">Click here if you would like to play again!</button>
+  </div> 
   <script src="idiom.js"></script>
 </body>
 </html>
