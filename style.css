@@ -8,7 +8,7 @@ body {
   */
   align-items: center;
   min-height: 100vh;
-  font-family: "lobster";
+  font-family: 'IM Fell English SC', serif;
 }
 
 #quizContainer {
@@ -33,7 +33,7 @@ h1 {
   max-width: 900px; /* Adjust the max-width as desired */
   margin: 0 auto; /* Center the header horizontally */
   text-align: center;
-  font-family: "lobster";
+  font-family: 'IM Fell English SC', serif;
   font-size: 34px;
   font-weight: bold;
   margin-bottom: 20px;
@@ -49,7 +49,7 @@ h1 {
   padding: 20px;
   font-size: 30px;
   font-weight: bold;
-  font-family: "lobster";
+  font-family: 'IM Fell English SC', serif;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -70,18 +70,18 @@ button {
   height: 50PX;
   border-radius: 29PX;
   background-color: lightblue;
-  padding: 0 20Px;
+  padding: 0 53Px;
   color: black;
-  font-size: 20PX;
+  font-size: 28PX;
   border: none;
   cursor: pointer;
-  font-family: "lobster";
+  font-family: 'IM Fell English SC', serif;
   box-shadow: 0 8px 5px palegoldenrod;
 }
 
 button:hover {
   background-color: #d0d0d0;
-  padding: 3px 40px;
+  padding: 4px 66px;
   background-color: #d0d0d0;
   font-size: 29px;
 }

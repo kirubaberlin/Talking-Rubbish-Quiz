@@ -120,7 +120,9 @@ let targetElement = document.getElementById("prize"); // chose your div in which
 let divElement = document.createElement("div"); // create a div container, in which all the <p>-elements will be shown
 
 let oopsFartSound = new Audio("wet-fart-6139.mp3");
+oopsFartSound.volume = 0.2
 let tadaSound = new Audio("tada-fanfare-a-6313.mp3");
+tadaSound.volume = 0.2
 
 function randomizeArray(array) {
   for (let i = array.length - 1; i > 0; i--) { // randomiser
