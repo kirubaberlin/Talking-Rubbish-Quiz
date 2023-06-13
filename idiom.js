@@ -1,7 +1,7 @@
 let idioms = [
   /*
   {
-    idiom: "ELEPHANT IN THE ROOM",
+    idiom: "ARCHIBALD, WE MUST CONFRONT THE ELEPHANT IN THE ROOM!",
     options: [
       { answer: "Something everyone knows but is uncomfortable to talk about", isCorrect: true },
       { answer: "The frustration of having bought furniture that is too large for your home.", isCorrect: false },
@@ -12,20 +12,20 @@ let idioms = [
     chosen: null
   },
   {
-    idiom: "TO GO COLD TURKEY",
+    idiom: "THIS MORNING I DECIDED TO GO COLD TURKEY. MY NUTELLA HABIT WAS GETTING OUT OF HAND.",
     options: [
       { answer: "To eat the leftovers of a previous night's roast dinner in a sandwich", isCorrect: false },
       { answer: "To give up something from one day to the next that was addictive", isCorrect: true },
       { answer: "To leave the house in cold weather with very little clothes on and showing a lot of skin", isCorrect: false }
     ],
-    alertGood: "You have won afternoon tea at the Ritz.",
+    alertGood: "You have won afternoon tea at the Ritz with Victoria Beckham.",
     alertBad: "Bad luck! Instead of tea at the Ritz, you will go to a cafe at the nearest Underground!",
     chosen: null
   },
   {
-    idiom: "AS THICK AS THIEVES",
+    idiom: "HAVE YOU NOTICED THAT THEY ARE AS THICK AS THIEVES",
     options: [
-      { answer: "To make a journey somewhere in disguise.", isCorrect: false },
+      { answer: "To drop out of school and turm to crime.", isCorrect: false },
       { answer: "To be very close and secretive with one or more person", isCorrect: true },
       { answer: "To be astonishingly and unbelievable stupid", isCorrect: false }
     ],
@@ -34,7 +34,7 @@ let idioms = [
     chosen: null
   },
   {
-    idiom: "HOLD YOUR HORSES.",
+    idiom: "IT'S TOO MUCH, DARLING, PLEASE HOLD YOUR HORSES.",
     options: [
       { answer: "Please control your mother-in-law.", isCorrect: false },
       { answer: "Please control your pets. farm animals or children", isCorrect: false },
@@ -45,7 +45,7 @@ let idioms = [
     chosen: null
   },
   {
-    idiom: "A PIECE OF CAKE",
+    idiom: "OOOH.... A PIECE OF CAKE, BABY!",
     options: [
       { answer: "A person that is desirable and flirtatious.", isCorrect: false },
       { answer: "A task that is very easy to do", isCorrect: true },
@@ -56,7 +56,7 @@ let idioms = [
     chosen: null
   },
   {
-    idiom: "PUT A SOCK IN IT",
+    idiom: "PUT A SOCK IN IT, PLEASE - I WILL NOT TELL YOU AGAIN, JEREMY.",
     options: [
       { answer: "To be quiet", isCorrect: true },
       { answer: "To remember to pack underwear in your luggage before a holiday", isCorrect: false },
@@ -67,7 +67,7 @@ let idioms = [
     chosen: null
   }, */
   {
-    idiom: "KEEP YOUR SHIRT ON",
+    idiom: "DARLING... PLEASE KEEP YOUR SHIRT ON...",
     options: [
       { answer: "Our romance is moving too fast and I am not ready to take it to the next level and get physical", isCorrect: false },
       { answer: "Please remain calm.", isCorrect: true },
@@ -78,34 +78,33 @@ let idioms = [
     chosen: null
   },
   {
-    idiom: "FROG IN YOUR THROAT.",
+    idiom: "GOSH - DO YOU HAVE A FROG IN YOUR THROAT?",
     options: [
       { answer: "To be choking on a large piece of bread or potato, perhaps cheese.", isCorrect: false },
-      { answer: "To be unwilling to give someone bad news regarding their appearance.", isCorrect: false },
+      { answer: "To be unable to respond to a question about a topic you know nothing about.", isCorrect: false },
       { answer: "To have a hoarse irritated voice.", isCorrect: true }
     ],
-    alertGood: "The best champagne will be your companion all the time. ",
-    alertBad: "Sorry, no alcohol, but water is also tasty.",
+    alertGood: "Let us go for gourmet whiskey tasting at Vinters with James Bond! ",
+    alertBad: "Sorry, no booze, but water is probably healthier, I think there you can refill your waterbottle somewhere...",
     chosen: null
   },
-  
   {
-    idiom: "IT'S ALL GREEK TO ME",
-    options: [
-      { answer: "It's completely incomprehensible.", isCorrect: true },
-      { answer: "Everything is fantastic, we are having an awesome time.", isCorrect: false },
-      { answer: "Everything is greek to me, I cannot read ancient greek", isCorrect: false },
+    "idiom": "IN HONESTY... IT'S ALL GREEK TO ME",
+    "options": [
+      { "answer": "It's completely incomprehensible.", "isCorrect": true },
+      { "answer": "We are having a great time, like sunny Greek beaches!", "isCorrect": false },
+      { "answer": "All classical music sounds the same to me.", "isCorrect": false }
     ],
-    alertGood: "You will be transported all through London today in a stretch Limo with snacks and goodies",
-    alertBad: "Incorrect! Instead of a limo with snacks, you will have to use the underground,buses or on foot today - no taxis!",
-    chosen: null
+    "alertGood": "You will be transported all through London today in a stretch limo with snacks and goodies.",
+    "alertBad": "Sorry! Instead of a limo with snacks, you will have to use the underground, buses, or go on foot today - no taxis!",
+    "chosen": null
   },
   {
-    idiom: "BITE YOUR TONGUE.",
+    idiom: "GOD. I JUST HAD TO BITE MY TONGUE AT DINNER LAST NIGHT.",
     options: [
-      { answer: "To accidentally bite your own tongue while eating.", isCorrect: false },
+      { answer: "To accidentally bite your own tongue while eating a delicous meal because you are eating too fast.", isCorrect: false },
       { answer: "To be unable to say anything because it is a secret.", isCorrect: true },
-      { answer: "To be a very slow eater, or someone who savours food.", isCorrect: false },
+      { answer: "To be invited to a very bad dinner and to try to eat it and be polite.", isCorrect: false },
     ],
     alertGood: "You are going on the London Eye!",
     alertBad: "Incorrect! Instead of enjoying the view from the London Eye, you are going to gaze up at it!",
@@ -114,7 +113,7 @@ let idioms = [
 ];
  // Add more idioms here
 
- let currentIndex = -1; // after clicking on the start-button, you start with the first element in the array[0]
+let currentIndex = -1; // after clicking on the start-button, you start with the first element in the array[0]
 let targetElement = document.getElementById("prize"); // chose your div in which the results are shown "id=prize"
 let divElement = document.createElement("div"); // create a div container, in which all the <p>-elements will be shown
 
@@ -123,17 +122,13 @@ function checkAnswer(userAnswer) {
   let options = currentIdiom.options;
   let correctAnswer = options.find((option) => option.isCorrect);
 
-  // I think instead of the variablename "chosen", I should have take "isUserAnswerCorrect" as a name, but it was so late ;-)
-  // Here you have an element of an array "idioms[currentIndex].chosen = ", which has to be filled with "true" or "false"
-  // after the equals you start a true/false question "userAnswer === correctAnswer.answer ? true : false;"
-  // Depends on the return value of the question, the element "idioms[currentIndex].chosen" is set to "true" or "false" 
   idioms[currentIndex].chosen = userAnswer === correctAnswer.answer ? true : false;
   let isUserChoiceCorrect=idioms[currentIndex].chosen; // for clear coding!!, I set this var "isUserChoiceCorrect" true/false
   
   isUserChoiceCorrect ? alert("Correct! " + currentIdiom.alertGood) : alert(currentIdiom.alertBad); // the elements alertGood and alertBad are declared in the array
   
   let wonPrizeText = isUserChoiceCorrect ? idioms[currentIndex].alertGood : "";
-  var pElement = document.createElement("p"); // create a <p></p> element
+  let pElement = document.createElement("p"); // create a <p></p> element
   pElement.id="rightAnswers"; // set the id property "rightAnswers" to play with css
   pElement.textContent = wonPrizeText; // put the text inside the <p>"wonPrizeText"</p> element
   if (isUserChoiceCorrect) divElement.appendChild(pElement); // append the pElement to the overall list inside the DivElement only if the isUserChoiceCorrect is set "true"
@@ -141,11 +136,11 @@ function checkAnswer(userAnswer) {
 }
 
 function nextQuestion() {
-  var button = document.getElementById("start");
+  let button = document.getElementById("start");
   button.style.display = "none"; // after clicking the first time on the button, it dissapears
 
-  var indexDisplay = document.getElementById("indexDisplay"); // the Div HTML-Element where the Index is shown id="indexDisplay"
-  var totalCorectDisplay = document.getElementById("totalCorect"); // the Div HTML-Element where the totalCorrect answer is shown (id="totalCorect")
+  let indexDisplay = document.getElementById("indexDisplay"); // the Div HTML-Element where the Index is shown id="indexDisplay"
+  let totalCorectDisplay = document.getElementById("totalCorect"); // the Div HTML-Element where the totalCorrect answer is shown (id="totalCorect")
 
   if (currentIndex < idioms.length - 1) {
     currentIndex++;
@@ -155,12 +150,12 @@ function nextQuestion() {
   } else {
     // The quiz is over now, it's time to hide the quiz and show the results
     targetElement.appendChild(divElement); // show the collected <p></p> in divElement at the div with the id ="prize"
-    var quizContainerElement = document.getElementById("quizContainer");
+    let quizContainerElement = document.getElementById("quizContainer");
     quizContainerElement.style.display = "none";
-    var countRightAnswer = divElement.childElementCount;
+    let countRightAnswer = divElement.childElementCount;
     totalCorectDisplay.textContent = countRightAnswer + " out of " + idioms.length;
 
-    var yourWinsElement = document.getElementById("yourWins");
+    let yourWinsElement = document.getElementById("yourWins");
     yourWinsElement.style.visibility = "visible";
   }
 }

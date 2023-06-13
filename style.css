@@ -76,10 +76,14 @@ button {
   border: none;
   cursor: pointer;
   font-family: "lobster";
+  box-shadow: 0 8px 5px palegoldenrod;
 }
 
 button:hover {
   background-color: #d0d0d0;
+  padding: 3px 40px;
+  background-color: #d0d0d0;
+  font-size: 29px;
 }
 
 /* Next question box */
@@ -96,8 +100,11 @@ button:hover {
   cursor: pointer;
 }
 
-.next-question button:hover {
+#start button:hover {
   background-color: #45a049;
+  padding: 3px 40px;
+  background-color: #d0d0d0;
+  font-size: 29px;
 }
 
 #yourWins {
