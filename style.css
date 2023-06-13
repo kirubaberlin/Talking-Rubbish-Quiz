@@ -47,7 +47,7 @@ h1 {
   background-color: rgba(242, 242, 242, 0);
   text-align: center;
   padding: 20px;
-  font-size: 45px;
+  font-size: 30px;
   font-weight: bold;
   font-family: "lobster";
   margin-top: 20px;
@@ -109,7 +109,7 @@ button:hover {
 
 #yourWins {
   margin-top: 130px;
-  font-size: 30px;
+  font-size: 26px;
   visibility:hidden;
   text-align:center;
 }

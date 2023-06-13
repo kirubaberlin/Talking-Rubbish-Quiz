@@ -1,71 +1,71 @@
 let idioms = [
-  /*
+
   {
     idiom: "ARCHIBALD, WE MUST CONFRONT THE ELEPHANT IN THE ROOM!",
     options: [
-      { answer: "Something everyone knows but is uncomfortable to talk about", isCorrect: true },
+      { answer: "A huge problem that no-one wants to talk about", isCorrect: true },
       { answer: "The frustration of having bought furniture that is too large for your home.", isCorrect: false },
       { answer: "A large and unwelcome person that is in your living room, perhaps on your sofa", isCorrect: false }
     ],
-    alertGood: "You are going to spend the night at the Savoy Hotel!",
-    alertBad: "Yikes... Instead of a night at the Savoy, you will spend the night in Hackney.",
+    alertGood: "You are going to spend the night in luxury at the Savoy Hotel!",
+    alertBad: "Yikes... Instead of a night at the Savoy, you will spend the night in a youth hostel in Hackney.",
     chosen: null
   },
   {
     idiom: "THIS MORNING I DECIDED TO GO COLD TURKEY. MY NUTELLA HABIT WAS GETTING OUT OF HAND.",
     options: [
-      { answer: "To eat the leftovers of a previous night's roast dinner in a sandwich", isCorrect: false },
+      { answer: "To eat the leftovers of a previous night's roast dinner in a sandwich for breakfast", isCorrect: false },
       { answer: "To give up something from one day to the next that was addictive", isCorrect: true },
       { answer: "To leave the house in cold weather with very little clothes on and showing a lot of skin", isCorrect: false }
     ],
-    alertGood: "You have won afternoon tea at the Ritz with Victoria Beckham.",
+    alertGood: "You have won afternoon tea at the Ritz with Kate Moss!",
     alertBad: "Bad luck! Instead of tea at the Ritz, you will go to a cafe at the nearest Underground!",
     chosen: null
   },
   {
     idiom: "HAVE YOU NOTICED THAT THEY ARE AS THICK AS THIEVES",
     options: [
-      { answer: "To drop out of school and turm to crime.", isCorrect: false },
+      { answer: "To drop out of school and embark on a life of crime.", isCorrect: false },
       { answer: "To be very close and secretive with one or more person", isCorrect: true },
       { answer: "To be astonishingly and unbelievable stupid", isCorrect: false }
     ],
-    alertGood: "Let's have a three course meal in Chinatown!",
-    alertBad: "Nope. We are still going to Chinatown, but instead of a three course meal, you can just buy a bag of prawn crackers!",
+    alertGood: "Let's have a delicious lunch in Chinatown!",
+    alertBad: "We are going to Chinatown, but instead of a wonderful lunch you can just buy a bag of prawn crackers!",
     chosen: null
   },
   {
-    idiom: "IT'S TOO MUCH, DARLING, PLEASE HOLD YOUR HORSES.",
+    idiom: "IT'S TOO MUCH DARLING, PLEASE HOLD YOUR HORSES.",
     options: [
       { answer: "Please control your mother-in-law.", isCorrect: false },
       { answer: "Please control your pets. farm animals or children", isCorrect: false },
       { answer: "Please relax and slow down", isCorrect: true }
     ],
-    alertGood: "You have won a night out in Cirque Le Soir for a night out the the Spice Girls!",
+    alertGood: "You have won a night out in Cirque Le Soir for a night out with the Spice Girls!",
     alertBad: "You are going for your night out to a pub in Wembley for a game of darts with my high school maths teacher instead of boogying with the Spice Girls!",
     chosen: null
   },
   {
     idiom: "OOOH.... A PIECE OF CAKE, BABY!",
     options: [
-      { answer: "A person that is desirable and flirtatious.", isCorrect: false },
+      { answer: "A person that is desirable and flirtatious, with a nice bottom.", isCorrect: false },
       { answer: "A task that is very easy to do", isCorrect: true },
       { answer: "A thing that is very good and but a thing that few people know about", isCorrect: false }
     ],
     alertGood: "Let's go and see Big Ben!",
-    alertBad: "Oh dear! No Problem, let's go and go and see Big Ben and cheer you up!",
+    alertBad: "Oh dear! No Problem, let's go and go and see Big Ben to cheer you up!",
     chosen: null
   },
   {
-    idiom: "PUT A SOCK IN IT, PLEASE - I WILL NOT TELL YOU AGAIN, JEREMY.",
+    idiom: "PUT A SOCK IN IT JEREMY - I WILL NOT TELL YOU AGAIN.",
     options: [
       { answer: "To be quiet", isCorrect: true },
-      { answer: "To remember to pack underwear in your luggage before a holiday", isCorrect: false },
-      { answer: "To resolve a leaky tap or a plumbing problem by using an old sock.", isCorrect: false }
+      { answer: "To remember to pack underpants in your luggage before a holiday", isCorrect: false },
+      { answer: "To resolve a leaky tap or a plumbing problem by using an old sock or underwear.", isCorrect: false }
     ],
-    alertGood: "Fantastic, all your trips are going to be in a limousine!",
-    alertBad: "Well, I hope the public transit isn't too crowded for your trips.",
+    alertGood: "You have £500 to spend shopping on Carnaby Street!",
+    alertBad: "You have £5 to spend on Carnaby Street (good luck...).",
     chosen: null
-  }, */
+  }, 
   {
     idiom: "DARLING... PLEASE KEEP YOUR SHIRT ON...",
     options: [
@@ -73,49 +73,64 @@ let idioms = [
       { answer: "Please remain calm.", isCorrect: true },
       { answer: "Your sense of style rocks! Where did you get that shirt/dress/trousers?", isCorrect: false }
     ],
-    alertGood: "You are going to have lunch with Jamie Oliver at his restaurant!",
-    alertBad: "Sorry - instead of lunch with Jamie Oliver, you are going to the nearest fish and chip shop!",
+    alertGood: "You are going to have a decadent dinner with Jamie Oliver at his restaurant!",
+    alertBad: "Sorry - instead of dinner with Jamie Oliver, you are going to the nearest fish and chip shop!",
     chosen: null
   },
   {
     idiom: "GOSH - DO YOU HAVE A FROG IN YOUR THROAT?",
     options: [
-      { answer: "To be choking on a large piece of bread or potato, perhaps cheese.", isCorrect: false },
-      { answer: "To be unable to respond to a question about a topic you know nothing about.", isCorrect: false },
+      { answer: "To be choking loudly on a large piece of bread or potato, perhaps cheese.", isCorrect: false },
+      { answer: "When somebody has such horribly bad breath that you feel the need to vomit.", isCorrect: false },
       { answer: "To have a hoarse irritated voice.", isCorrect: true }
     ],
     alertGood: "Let us go for gourmet whiskey tasting at Vinters with James Bond! ",
-    alertBad: "Sorry, no booze, but water is probably healthier, I think there you can refill your waterbottle somewhere...",
+    alertBad: "Sorry, no booze, but I think you can refill your waterbottle in a toilet somewhere...",
     chosen: null
   },
   {
-    "idiom": "IN HONESTY... IT'S ALL GREEK TO ME",
+    "idiom": "IN ALL HONESTY... IT'S ALL GREEK TO ME",
     "options": [
       { "answer": "It's completely incomprehensible.", "isCorrect": true },
-      { "answer": "We are having a great time, like sunny Greek beaches!", "isCorrect": false },
-      { "answer": "All classical music sounds the same to me.", "isCorrect": false }
+      { "answer": "We are having a brilliant time, as if we were on a sunny Greek beach!", "isCorrect": false },
+      { "answer": "I cannot cook to save my life, not even operate a microwave", "isCorrect": false }
     ],
-    "alertGood": "You will be transported all through London today in a stretch limo with snacks and goodies.",
+    "alertGood": "You will be transported all through London today in a stretch limo with champagne and snacks!",
     "alertBad": "Sorry! Instead of a limo with snacks, you will have to use the underground, buses, or go on foot today - no taxis!",
     "chosen": null
   },
   {
     idiom: "GOD. I JUST HAD TO BITE MY TONGUE AT DINNER LAST NIGHT.",
     options: [
-      { answer: "To accidentally bite your own tongue while eating a delicous meal because you are eating too fast.", isCorrect: false },
+      { answer: "To accidentally choke loudly and embarassingly while eating a meal.", isCorrect: false },
       { answer: "To be unable to say anything because it is a secret.", isCorrect: true },
-      { answer: "To be invited to a very bad dinner and to try to eat it and be polite.", isCorrect: false },
+      { answer: "To be given an extremely bad dinner and to have to eat it out of politeness.", isCorrect: false },
     ],
-    alertGood: "You are going on the London Eye!",
-    alertBad: "Incorrect! Instead of enjoying the view from the London Eye, you are going to gaze up at it!",
+    alertGood: "You are going on the London Eye, enjoy the view!",
+    alertBad: "Instead of enjoying the view from the London Eye, you are going to gaze up at it!",
     chosen: null
   },
 ];
  // Add more idioms here
 
+
+
 let currentIndex = -1; // after clicking on the start-button, you start with the first element in the array[0]
 let targetElement = document.getElementById("prize"); // chose your div in which the results are shown "id=prize"
 let divElement = document.createElement("div"); // create a div container, in which all the <p>-elements will be shown
+
+let oopsFartSound = new Audio("wet-fart-6139.mp3");
+let tadaSound = new Audio("tada-fanfare-a-6313.mp3");
+
+function randomizeArray(array) {
+  for (let i = array.length - 1; i > 0; i--) { // randomiser
+    const j = Math.floor(Math.random() * (i + 1)); 
+    [array[i], array[j]] = [array[j], array[i]]; 
+    
+  }
+  return array;
+}
+idioms = randomizeArray(idioms); 
 
 function checkAnswer(userAnswer) {
   let currentIdiom = idioms[currentIndex];
@@ -123,9 +138,15 @@ function checkAnswer(userAnswer) {
   let correctAnswer = options.find((option) => option.isCorrect);
 
   idioms[currentIndex].chosen = userAnswer === correctAnswer.answer ? true : false;
-  let isUserChoiceCorrect=idioms[currentIndex].chosen; // for clear coding!!, I set this var "isUserChoiceCorrect" true/false
-  
-  isUserChoiceCorrect ? alert("Correct! " + currentIdiom.alertGood) : alert(currentIdiom.alertBad); // the elements alertGood and alertBad are declared in the array
+  let isUserChoiceCorrect=idioms[currentIndex].chosen; 
+  if (isUserChoiceCorrect) {
+    tadaSound.play();
+    alert("Correct! " + currentIdiom.alertGood); //sounds
+  } else {
+    oopsFartSound.play();
+    alert("Bad luck!" + currentIdiom.alertBad);
+  }
+  //isUserChoiceCorrect ? alert("Correct! " + currentIdiom.alertGood) : alert(currentIdiom.alertBad); // the elements alertGood and alertBad are declared in the array
   
   let wonPrizeText = isUserChoiceCorrect ? idioms[currentIndex].alertGood : "";
   let pElement = document.createElement("p"); // create a <p></p> element
@@ -145,7 +166,7 @@ function nextQuestion() {
   if (currentIndex < idioms.length - 1) {
     currentIndex++;
     indexDisplay.textContent =
-      "Question " + (currentIndex + 1) + " of " + idioms.length; // showing in which page the user is and how many there are alltogether
+      "Question " + (currentIndex + 1) + " of " + idioms.length; // showing in which page the user is and how many there are altogether
     showQuestion();
   } else {
     // The quiz is over now, it's time to hide the quiz and show the results
@@ -181,6 +202,5 @@ function showQuestion() {
     objectOptionsElement=optionsElement.appendChild(divButtonElement);
 
     console.log(divButtonElement);   
-    // console.info(buttonElement);
   });
 }
