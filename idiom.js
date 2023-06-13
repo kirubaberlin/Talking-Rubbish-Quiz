@@ -12,7 +12,7 @@ let idioms = [
     chosen: null
   },
   {
-    idiom: "THIS MORNING I DECIDED TO GO COLD TURKEY. MY NUTELLA HABIT WAS GETTING OUT OF HAND.",
+    idiom: "THIS MORNING PRUNELLA DECIDED TO GO COLD TURKEY. HER NUTELLA HABIT WAS GETTING OUT OF HAND.",
     options: [
       { answer: "To eat the leftovers of a previous night's roast dinner in a sandwich for breakfast", isCorrect: false },
       { answer: "To give up something from one day to the next that was addictive", isCorrect: true },
@@ -23,7 +23,7 @@ let idioms = [
     chosen: null
   },
   {
-    idiom: "HAVE YOU NOTICED THAT THEY ARE AS THICK AS THIEVES",
+    idiom: "HAVE YOU NOTICED THAT MAVIS AND PERCIVAL ARE AS THICK AS THIEVES?",
     options: [
       { answer: "To drop out of school and embark on a life of crime.", isCorrect: false },
       { answer: "To be very close and secretive with one or more person", isCorrect: true },
@@ -34,7 +34,7 @@ let idioms = [
     chosen: null
   },
   {
-    idiom: "IT'S TOO MUCH DARLING, PLEASE HOLD YOUR HORSES.",
+    idiom: "RUPERT, WILL YOU PLEASE HOLD YOUR HORSES!",
     options: [
       { answer: "Please control your mother-in-law.", isCorrect: false },
       { answer: "Please control your pets. farm animals or children", isCorrect: false },
@@ -45,7 +45,7 @@ let idioms = [
     chosen: null
   },
   {
-    idiom: "OOOH.... A PIECE OF CAKE, BABY!",
+    idiom: "OOOH, DICKIE... SUCH A PIECE OF CAKE!",
     options: [
       { answer: "A person that is desirable and flirtatious, with a nice bottom.", isCorrect: false },
       { answer: "A task that is very easy to do", isCorrect: true },
@@ -63,11 +63,11 @@ let idioms = [
       { answer: "To resolve a leaky tap or a plumbing problem by using an old sock or underwear.", isCorrect: false }
     ],
     alertGood: "You have £500 to spend shopping on Carnaby Street!",
-    alertBad: "You have £5 to spend on Carnaby Street (good luck...).",
+    alertBad: "You have £5 to spend on Carnaby Street (good luck with finding anything in London for that price...).",
     chosen: null
   }, 
   {
-    idiom: "DARLING... PLEASE KEEP YOUR SHIRT ON...",
+    idiom: "OH GERTRUDE YOU NAUGHTY GIRL, PLEASE KEEP YOUR SHIRT ON...",
     options: [
       { answer: "Our romance is moving too fast and I am not ready to take it to the next level and get physical", isCorrect: false },
       { answer: "Please remain calm.", isCorrect: true },
@@ -78,7 +78,7 @@ let idioms = [
     chosen: null
   },
   {
-    idiom: "GOSH - DO YOU HAVE A FROG IN YOUR THROAT?",
+    idiom: "GOSH WINIFRED - DO YOU HAVE A FROG IN YOUR THROAT?",
     options: [
       { answer: "To be choking loudly on a large piece of bread or potato, perhaps cheese.", isCorrect: false },
       { answer: "When somebody has such horribly bad breath that you feel the need to vomit.", isCorrect: false },
@@ -89,7 +89,7 @@ let idioms = [
     chosen: null
   },
   {
-    "idiom": "IN ALL HONESTY... IT'S ALL GREEK TO ME",
+    "idiom": "IN ALL HONESTY, ARTHUR... IT'S ALL GREEK TO ME",
     "options": [
       { "answer": "It's completely incomprehensible.", "isCorrect": true },
       { "answer": "We are having a brilliant time, as if we were on a sunny Greek beach!", "isCorrect": false },
@@ -100,7 +100,7 @@ let idioms = [
     "chosen": null
   },
   {
-    idiom: "GOD. I JUST HAD TO BITE MY TONGUE AT DINNER LAST NIGHT.",
+    idiom: "CRIKEY. I JUST HAD TO BITE MY TONGUE AT DINNER LAST NIGHT WITH HORATIO.",
     options: [
       { answer: "To accidentally choke loudly and embarassingly while eating a meal.", isCorrect: false },
       { answer: "To be unable to say anything because it is a secret.", isCorrect: true },
