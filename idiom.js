@@ -3,9 +3,9 @@ let idioms = [
   {
     idiom: "ARCHIBALD, WE MUST CONFRONT THE ELEPHANT IN THE ROOM!",
     options: [
-      { answer: "A huge problem that no-one wants to talk about", isCorrect: true },
-      { answer: "The frustration of having bought furniture that is too large for your home.", isCorrect: false },
-      { answer: "A large and unwelcome person that is in your living room, perhaps on your sofa", isCorrect: false }
+      { answer: "You wish to discuss a huge problem with Archibald that no-one wants to talk about (eg bad breath).", isCorrect: true },
+      { answer: "You are annoyed that Archibald has bought furniture that is too large for your home.", isCorrect: false },
+      { answer: "A large and unwelcome person that is in your living room, perhaps Archibalds mother.", isCorrect: false }
     ],
     swalGood: "You are going to spend the night in luxury at the Savoy Hotel!",
     swalBad: "Yikes... Instead of a night at the Savoy, you will spend the night in a youth hostel in Hackney.",
@@ -14,9 +14,9 @@ let idioms = [
   {
     idiom: "THIS MORNING PRUNELLA WENT COLD TURKEY.",
     options: [
-      { answer: "To eat the leftovers of a previous night's roast dinner in a sandwich for breakfast", isCorrect: false },
-      { answer: "To give up something from one day to the next that was addictive", isCorrect: true },
-      { answer: "To leave the house in cold weather with very little clothes on and showing a lot of skin", isCorrect: false }
+      { answer: "She ate the leftovers of a previous roast dinner in a sandwich for breakfast.", isCorrect: false },
+      { answer: "Prunella gave up something from one day to the next that was quite addictive eg Nutella.", isCorrect: true },
+      { answer: "Prunella left the house in cold weather with very little clothes on, revealing a lot of skin.", isCorrect: false }
     ],
     swalGood: "You have won afternoon tea at the Ritz with Kate Moss!",
     swalBad: "Bad luck! Instead of tea at the Ritz, you will go to a cafe at the nearest Underground!",
@@ -25,9 +25,9 @@ let idioms = [
   {
     idiom: "MAVIS AND PERCIVAL ARE AS THICK AS THIEVES!",
     options: [
-      { answer: "To drop out of school and embark on a life of crime.", isCorrect: false },
-      { answer: "To be very close and secretive with one or more person", isCorrect: true },
-      { answer: "To be astonishingly and unbelievable stupid", isCorrect: false }
+      { answer: "They have dropped out of school and embarked on a life of crime.", isCorrect: false },
+      { answer: "They are very close and secretive with each other.", isCorrect: true },
+      { answer: "Mavis and Percival are astonishingly and unbelievable stupid.", isCorrect: false }
     ],
     swalGood: "Let's have a delicious lunch in Chinatown!",
     swalBad: "We are going to Chinatown, but instead of a wonderful lunch you can just buy a bag of prawn crackers!",
@@ -36,9 +36,9 @@ let idioms = [
   {
     idiom: "RUPERT, WILL YOU PLEASE HOLD YOUR HORSES!",
     options: [
-      { answer: "Please control your mother-in-law.", isCorrect: false },
-      { answer: "Please control your pets. farm animals or children", isCorrect: false },
-      { answer: "Please relax and slow down", isCorrect: true }
+      { answer: "Please control your mother-in-law, Rupert.", isCorrect: false },
+      { answer: "Please, Rupert - control your pets. farm animals or children!", isCorrect: false },
+      { answer: "Oh Rupert, please relax and slow down.", isCorrect: true }
     ],
     swalGood: "You have won a night out with the Spice Girls!",
     swalBad: "You are going for your night out to a pub in Wembley for a game of darts with my high school maths teacher instead of boogying with the Spice Girls!",
@@ -47,31 +47,31 @@ let idioms = [
   {
     idiom: "OOOH, DICKIE... SUCH A PIECE OF CAKE!",
     options: [
-      { answer: "A person that is desirable and flirtatious, with a nice bottom.", isCorrect: false },
-      { answer: "A task that is very easy to do", isCorrect: true },
-      { answer: "A thing that is very good and but a thing that few people know about", isCorrect: false }
+      { answer: "Dickie is a person that is desirable and flirtatious, with a nice bottom.", isCorrect: false },
+      { answer: "Someone is talking to Dickie about a task that is very easy to do.", isCorrect: true },
+      { answer: "Someone is talking to Dickie about a fantastic restaurant that few people know about.", isCorrect: false }
     ],
-    alertGood: "we're going to see Big Ben!",
-    alertBad: "Oh dear! No Problem, let's go and go and see Big Ben to cheer you up!",
+    swalGood: "we're going to see Big Ben!",
+    swalBad: "Oh dear! No Problem, let's go and go and see Big Ben to cheer you up!",
     chosen: null
   },
   {
     idiom: "PUT A SOCK IN IT JEREMY - I WILL NOT TELL YOU AGAIN.",
     options: [
-      { answer: "To be quiet", isCorrect: true },
-      { answer: "To remember to pack underpants in your luggage before a holiday", isCorrect: false },
-      { answer: "To resolve a leaky tap or a plumbing problem by using an old sock or underwear.", isCorrect: false }
+      { answer: "Jeremy needs to stop talking because he is rather annoying.", isCorrect: true },
+      { answer: "Jeremy should pack underpants in his luggage before a holiday.", isCorrect: false },
+      { answer: "Jeremy should resolve an urgent plumbing problem by using an old sock or underwear.", isCorrect: false }
     ],
     swalGood: "You have £500 to spend shopping on Carnaby Street!",
     swalBad: "You have £5 to spend on Carnaby Street (good luck with finding anything in London for that price...).",
     chosen: null
   }, 
   {
-    idiom: "OH GERTRUDE YOU NAUGHTY GIRL, PLEASE KEEP YOUR SHIRT ON...",
+    idiom: "OH GERTRUDE MY DEAR, PLEASE DO KEEP YOUR SHIRT ON...",
     options: [
-      { answer: "Our romance is moving too fast and I am not ready to take it to the next level and get physical", isCorrect: false },
-      { answer: "Please remain calm and stop panicking.", isCorrect: true },
-      { answer: "Your sense of style rocks! Where did you get that shirt/dress/trousers?", isCorrect: false }
+      { answer: "Gertrude's romance with you is moving too fast and you aren't ready to take it to get physical.", isCorrect: false },
+      { answer: "You wish Gertrude to remain calm and stop panicking.", isCorrect: true },
+      { answer: "You think Gertrude is incredibly stylish and wish to enquire where her shirt is from?", isCorrect: false }
     ],
     swalGood: "You are going to have a decadent dinner with Jamie Oliver!",
     swalBad: "Sorry - instead of dinner with Jamie Oliver, you are going to the nearest fish and chip shop!",
@@ -80,20 +80,20 @@ let idioms = [
   {
     idiom: "GOSH WINIFRED - DO YOU HAVE A FROG IN YOUR THROAT?",
     options: [
-      { answer: "To be choking loudly on a large piece of bread or potato, perhaps cheese.", isCorrect: false },
-      { answer: "When somebody has such horribly bad breath that you feel the need to vomit.", isCorrect: false },
-      { answer: "To have a hoarse irritated voice.", isCorrect: true }
+      { answer: "Winifred is choking loudly on a large piece of bread or potato, perhaps cheese.", isCorrect: false },
+      { answer: "Winifred has such horribly bad breath that I feel the immediate need to vomit.", isCorrect: false },
+      { answer: "Winifred has a hoarse irritated voice.", isCorrect: true }
     ],
     swalGood: "Let us go for gourmet whiskey tasting with James Bond! ",
-    swalBad: "Sorry, no booze, but I think you can refill your waterbottle in a toilet somewhere...",
+    swalBad: "Sorry, no whiskey tasting but I think you can refill your waterbottle in a toilet somewhere...",
     chosen: null
   },
   {
     "idiom": "IN ALL HONESTY, ARTHUR... IT'S ALL GREEK TO ME",
     "options": [
       { "answer": "It's completely incomprehensible.", "isCorrect": true },
-      { "answer": "We are having a brilliant time, as if we were on a sunny Greek beach!", "isCorrect": false },
-      { "answer": "I cannot cook to save my life, not even operate a microwave", "isCorrect": false }
+      { "answer": "You and Arthur are having a brilliant time, as if on a sunny Greek beach!", "isCorrect": false },
+      { "answer": " You admit to him that you cannot cook to save your life and live on Greek takeaways.", "isCorrect": false }
     ],
     swalGood: "You will be transported all through London today in a stretch limo with champagne and snacks!",
     swalBad: "Sorry! Instead of a limo with snacks, you will have to use the underground, buses, or go on foot today - no taxis!",
@@ -102,9 +102,9 @@ let idioms = [
   {
     idiom: "I HAD TO BITE MY TONGUE AT DINNER WITH HORATIO.",
     options: [
-      { answer: "To accidentally choke loudly and embarassingly while eating a meal.", isCorrect: false },
-      { answer: "To be unable to say anything because it is a secret.", isCorrect: true },
-      { answer: "To be given an extremely bad dinner and to have to eat it out of politeness.", isCorrect: false },
+      { answer: "To accidentally choke loudly and embarassingly in public while eating a meal.", isCorrect: false },
+      { answer: "To be unable to respond to Horatio because you are keeping a secret from him.", isCorrect: true },
+      { answer: "To be given an extremely bad dinner from Horatio and to have to eat it out of politeness.", isCorrect: false },
     ],
     swalGood: "You are going on the London Eye, enjoy the view!",
     swalBad: "Instead of enjoying the view from the London Eye, you are going to gaze up at it!",

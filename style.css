@@ -22,7 +22,7 @@ canvas {
   border: 1px solid #000;
 }
 h1 {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 /* Title header */
@@ -66,10 +66,9 @@ h1 {
 }
 
 button {
-
-  /* width: 300px; */
-  height: 45PX;
-  border-radius: 29PX;
+  max-width:985px; /* Adjust the max-width as desired, so the buttons can't be wider than the image  */
+  min-height: 45PX;
+  border-radius: 15PX; /* The border radius has been reduced to better suit the two-line text button. */
   background-color: lightblue;
   padding: 0 53Px;
   margin-bottom: 50px;
@@ -78,7 +77,7 @@ button {
   border: none;
   cursor: pointer;
   font-family: 'IM Fell English SC', serif;
-  box-shadow: 0 8px 5px palegoldenrod;
+  box-shadow: 0 10px 14px #481f0a; /* The shadow color now complements the image better.*/
 }
 
 button:hover {
@@ -128,4 +127,8 @@ button:hover {
     font-weight: bold;
     color: brown;
     padding: 0px 76px;
+}
+
+#start h2{
+  font-size: 60px;
 }
