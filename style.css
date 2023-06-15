@@ -3,11 +3,12 @@ body {
   background-color: lightblue;
   background-image: url("scroll-png-26394.png");
   background-size: cover;
+  /*background-size: contain;*/
+  background-repeat: no-repeat;
   /*display: flex;
-  justify-content: center;
-  */
+  justify-content: center:*/
   align-items: center;
-  min-height: 100vh;
+  /*min-height: 100vh;*/
   font-family: 'IM Fell English SC', serif;
 }
 
@@ -47,7 +48,7 @@ h1 {
   background-color: rgba(242, 242, 242, 0);
   text-align: center;
   padding: 20px;
-  font-size: 30px;
+  font-size: 26px;
   font-weight: bold;
   font-family: 'IM Fell English SC', serif;
   margin-top: 20px;
@@ -67,12 +68,13 @@ h1 {
 button {
 
   /* width: 300px; */
-  height: 50PX;
+  height: 45PX;
   border-radius: 29PX;
   background-color: lightblue;
   padding: 0 53Px;
+  margin-bottom: 50px;
   color: black;
-  font-size: 28PX;
+  font-size: 26PX;
   border: none;
   cursor: pointer;
   font-family: 'IM Fell English SC', serif;
