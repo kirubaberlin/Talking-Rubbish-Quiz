@@ -2,13 +2,9 @@
 body {
   background-color: lightblue;
   background-image: url("scroll-png-26394.png");
-  background-size: cover;
-  /*background-size: contain;*/
+  background-size: 1300px;
   background-repeat: no-repeat;
-  /*display: flex;
-  justify-content: center:*/
   align-items: center;
-  /*min-height: 100vh;*/
   font-family: 'IM Fell English SC', serif;
 }
 
@@ -18,11 +14,8 @@ body {
   align-items: center;
 }
 
-canvas {
-  border: 1px solid #000;
-}
 h1 {
-  font-size: 30px;
+  font-size: 40px;
 }
 
 /* Title header */
@@ -41,7 +34,6 @@ h1 {
   margin-top: 47PX;
 
 }
-
 
 /* Idiom title box */
 .idiom-title {
@@ -70,7 +62,7 @@ button {
   min-height: 45PX;
   border-radius: 15PX; /* The border radius has been reduced to better suit the two-line text button. */
   background-color: lightblue;
-  padding: 0 53Px;
+  padding: 4px 53Px;
   margin-bottom: 50px;
   color: black;
   font-size: 26PX;
@@ -78,13 +70,13 @@ button {
   cursor: pointer;
   font-family: 'IM Fell English SC', serif;
   box-shadow: 0 10px 14px #481f0a; /* The shadow color now complements the image better.*/
+  transition: transform 0.3s; /* how to add a smooth transition for avoid jumping*/
 }
 
 button:hover {
   background-color: #d0d0d0;
-  padding: 4px 66px;
-  background-color: #d0d0d0;
-  font-size: 29px;
+  transform: scale(1.07); /*this is the scale of the transform need this too*/
+  font-weight: bold;
 }
 
 /* Next question box */
@@ -131,4 +123,9 @@ button:hover {
 
 #start h2{
   font-size: 60px;
+}
+
+.mainContainer{
+  width: 1200px;
+  margin-left: 30px
 }

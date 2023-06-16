@@ -3,9 +3,9 @@ let idioms = [
   {
     idiom: "ARCHIBALD, WE MUST CONFRONT THE ELEPHANT IN THE ROOM!",
     options: [
-      { answer: "You wish to discuss a huge problem with Archibald that no-one wants to talk about (eg bad breath).", isCorrect: true },
+      { answer: "You wish to discuss a huge problem with Archibald that no-one wants to talk about (eg his bad breath).", isCorrect: true },
       { answer: "You are annoyed that Archibald has bought furniture that is too large for your home.", isCorrect: false },
-      { answer: "A large and unwelcome person that is in your living room, perhaps Archibalds mother.", isCorrect: false }
+      { answer: "A large and unwelcome person that is in your living room, in this case - the mother of Archibald.", isCorrect: false }
     ],
     swalGood: "You are going to spend the night in luxury at the Savoy Hotel!",
     swalBad: "Yikes... Instead of a night at the Savoy, you will spend the night in a youth hostel in Hackney.",
@@ -19,13 +19,13 @@ let idioms = [
       { answer: "Prunella left the house in cold weather with very little clothes on, revealing a lot of skin.", isCorrect: false }
     ],
     swalGood: "You have won afternoon tea at the Ritz with Kate Moss!",
-    swalBad: "Bad luck! Instead of tea at the Ritz, you will go to a cafe at the nearest Underground!",
+    swalBad: "Bad luck! Instead of afternoon tea at the Ritz, you will go to a cafe in Hackney!",
     chosen: null
   },
   {
     idiom: "MAVIS AND PERCIVAL ARE AS THICK AS THIEVES!",
     options: [
-      { answer: "They have dropped out of school and embarked on a life of crime.", isCorrect: false },
+      { answer: "Mavis and Percival have dropped out of school and embarked on a life of crime.", isCorrect: false },
       { answer: "They are very close and secretive with each other.", isCorrect: true },
       { answer: "Mavis and Percival are astonishingly and unbelievable stupid.", isCorrect: false }
     ],
@@ -37,17 +37,17 @@ let idioms = [
     idiom: "RUPERT, WILL YOU PLEASE HOLD YOUR HORSES!",
     options: [
       { answer: "Please control your mother-in-law, Rupert.", isCorrect: false },
-      { answer: "Please, Rupert - control your pets. farm animals or children!", isCorrect: false },
+      { answer: "Please Rupert do control your farm animals or children!", isCorrect: false },
       { answer: "Oh Rupert, please relax and slow down.", isCorrect: true }
     ],
     swalGood: "You have won a night out with the Spice Girls!",
-    swalBad: "You are going for your night out to a pub in Wembley for a game of darts with my high school maths teacher instead of boogying with the Spice Girls!",
+    swalBad: "You are going for your night out to a pub in Wembley for a game of darts with my high school maths teacher instead of dancing with the Spice Girls!",
     chosen: null
   },
   {
     idiom: "OOOH, DICKIE... SUCH A PIECE OF CAKE!",
     options: [
-      { answer: "Dickie is a person that is desirable and flirtatious, with a nice bottom.", isCorrect: false },
+      { answer: "Dickie is a person that is desirable and flirtatious with a nice bottom.", isCorrect: false },
       { answer: "Someone is talking to Dickie about a task that is very easy to do.", isCorrect: true },
       { answer: "Someone is talking to Dickie about a fantastic restaurant that few people know about.", isCorrect: false }
     ],
@@ -59,8 +59,8 @@ let idioms = [
     idiom: "PUT A SOCK IN IT JEREMY - I WILL NOT TELL YOU AGAIN.",
     options: [
       { answer: "Jeremy needs to stop talking because he is rather annoying.", isCorrect: true },
-      { answer: "Jeremy should pack underpants in his luggage before a holiday.", isCorrect: false },
-      { answer: "Jeremy should resolve an urgent plumbing problem by using an old sock or underwear.", isCorrect: false }
+      { answer: "Jeremy should pack underwear in his luggage before a holiday as he always forgets.", isCorrect: false },
+      { answer: "Jeremy should resolve an urgent plumbing problem by using an old sock or his underwear.", isCorrect: false }
     ],
     swalGood: "You have £500 to spend shopping on Carnaby Street!",
     swalBad: "You have £5 to spend on Carnaby Street (good luck with finding anything in London for that price...).",
@@ -69,9 +69,9 @@ let idioms = [
   {
     idiom: "OH GERTRUDE MY DEAR, PLEASE DO KEEP YOUR SHIRT ON...",
     options: [
-      { answer: "Gertrude's romance with you is moving too fast and you aren't ready to take it to get physical.", isCorrect: false },
-      { answer: "You wish Gertrude to remain calm and stop panicking.", isCorrect: true },
-      { answer: "You think Gertrude is incredibly stylish and wish to enquire where her shirt is from?", isCorrect: false }
+      { answer: "Gertrude's romance with you is moving too fast and you aren't ready to get physical.", isCorrect: false },
+      { answer: "You wish Gertrude would remain calm and stop panicking.", isCorrect: true },
+      { answer: "You think Gertrude is incredibly stylish and wish to enquire where her shirt is from", isCorrect: false }
     ],
     swalGood: "You are going to have a decadent dinner with Jamie Oliver!",
     swalBad: "Sorry - instead of dinner with Jamie Oliver, you are going to the nearest fish and chip shop!",
@@ -80,12 +80,12 @@ let idioms = [
   {
     idiom: "GOSH WINIFRED - DO YOU HAVE A FROG IN YOUR THROAT?",
     options: [
-      { answer: "Winifred is choking loudly on a large piece of bread or potato, perhaps cheese.", isCorrect: false },
+      { answer: "Winifred is choking alarmingly on a large piece of bread or potato, possibly cheese.", isCorrect: false },
       { answer: "Winifred has such horribly bad breath that I feel the immediate need to vomit.", isCorrect: false },
-      { answer: "Winifred has a hoarse irritated voice.", isCorrect: true }
+      { answer: "Winifred has a hoarse irritated voice when she speaks.", isCorrect: true }
     ],
-    swalGood: "Let us go for gourmet whiskey tasting with James Bond! ",
-    swalBad: "Sorry, no whiskey tasting but I think you can refill your waterbottle in a toilet somewhere...",
+    swalGood: "Let us go for a Martini (shaken not stirred) with James Bond! ",
+    swalBad: "Sorry, no Martini and no 007, but I think you can refill your waterbottle in a toilet somewhere...",
     chosen: null
   },
   {
